@@ -1,3 +1,24 @@
 
 .normal {
+    width:340px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-bottom:24px;
+}
+.normal :global(.content){
+    width:300px;
+}
+.normal :global(.lists){
+    background-color:#fff;
+    padding:4px 0px;
+}
+.normal :global(.back){
+    background-color:#fff;
+    padding:6px 10px;
+    margin-bottom:10px;
+}
+.normal :global(.view){
+    background-color:#fff;
+    padding:10px;
 }

@@ -1,8 +1,8 @@
-import Base from './Base';
+import MyBase from './MyBase';
 import styles from './MySearch.css';
 import {Input,Icon} from 'antd';
 
-class MySearch extends Base {
+class MySearch extends MyBase {
     constructor(props) {
         super(props);
         this.state = {value:'',suffix:props.suffix?props.suffix:'close'};

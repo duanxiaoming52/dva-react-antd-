@@ -1,11 +1,11 @@
-import Base from './Base';
+import MyBase from './MyBase';
 import {Tooltip} from 'antd';
-import styles from './Status.css';
+import styles from './MyStatus.css';
 
-class MyStatus extends Base {
+class MyStatus extends MyBase {
     render(){
         return (
-            <ul className={styles.Status}>
+            <ul className={styles.myStatus}>
             {
                 this.props.lists.map(function(item,index){
                     return (
